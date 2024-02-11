@@ -40,7 +40,7 @@ int main(){
         }
     }
     while (insert != 'D' && insert != EOF);
-    printf("\n");
+    //printf("\n");
 
        // Free memory to end program
     for (int i = 0; i < SIZE; ++i)
