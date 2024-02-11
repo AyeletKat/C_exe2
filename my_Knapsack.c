@@ -23,7 +23,7 @@ int main(){
         if (is_selected[r]==1) result[r]=items[r];//1==TRUE
 
     }
-    printf("\nSelected items:");
+    printf("Selected items:");
     for (int i = 0; i < NUM_ITEMS; i++)
     {
         if(result[i]!=0){
