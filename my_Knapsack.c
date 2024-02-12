@@ -1,4 +1,3 @@
-//קובץ הרצה של תרמיל הגב
 #include <stdio.h>
 #include <stdlib.h>
 #define BAG_CAPACITY 20
@@ -18,7 +17,7 @@ int main(){
     }
 
     int solve_knapsack = knapSack(weights, values, is_selected);
-    printf("Maximum profit: %d", solve_knapsack);
+    printf("Maximum profit: %d\n", solve_knapsack);
     for(int r=0; r<NUM_ITEMS; r++){
         if (is_selected[r]==1) result[r]=items[r];//1==TRUE
 
